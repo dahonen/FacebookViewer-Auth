@@ -32,15 +32,15 @@ passport.deserializeUser(function(obj, done) {
 
 
 app.get('/', function(req, res) {
-	res.send('hello');
+	res.send('WORD!!!');
 })
 
 app.get('/confirm/success', function(req, res) {
-	res.send('success');
+	res.send('Success!!!');
 })
 
 app.get('/confirm/failure', function(req, res) {
-	res.send('failure');
+	res.send('Failure!!!');
 })
 
 
